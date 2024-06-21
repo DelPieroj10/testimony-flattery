@@ -1,0 +1,115 @@
+.container-testimony {
+  width: 1170px;
+  height: 350px;
+  margin: 10px 10px 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #cfa9fa;
+  box-shadow: 0 5px 13px 1px rgba(0 0 0 / 9%);
+}
+
+.image-testimony {
+  height: 110%;
+  width: auto;
+  box-shadow: 0 5px 13px 1px rgba(3 3 5 / 20%);
+}
+
+/* .container-testimony img {
+  box-shadow: 3 5px 13px 2px rgb(5 5 5 / 9%);
+} */
+
+.container-text-testimony {
+  text-align: center;
+  padding: 40px;
+  font-family: lato, 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+  font-weight: 400;
+  line-height: 1.5rem;
+}
+
+.name-testimony {
+  font-size: 1.3rem;
+}
+
+.position-testimony {
+  font-size: 1.3rem;
+  margin-top: 15px;
+  padding-bottom: 30px;
+}
+
+.text-testimony {
+  font-size: 0.93rem;
+  text-align: justify;
+}
+
+.compliment-testimony {
+  font-size: 1.1rem;
+  text-align: center;
+  font-style: italic;
+}
+
+@media screen and (max-width: 1171px){
+  .container-testimony {
+    background: whitesmoke;
+    margin-top: 50px;
+  }
+
+  .position-testimony {
+    font-size: 1.1rem;
+    margin-top: 10px;
+    padding-bottom: 20px;
+  }
+
+  .name-testimony {
+    margin-top: 50px;
+  }
+
+  .text-testimony {
+    font-size: 1.05rem;
+  }
+
+  .compliment-testimony {
+    font-size: 1.15rem;
+  }
+
+  .container-text-testimony {
+    text-align: center;
+    padding: 40px;
+    font-weight: 370;
+    line-height: 1.5rem;
+  }
+
+
+}
+
+@media screen and (max-width: 768px){  
+
+  .image-testimony {
+    height: 20%;
+    width: auto;
+    position: absolute;
+    align-items: center;
+    margin-top: -340px;
+  }
+
+  .principal-container {
+    min-width: 50%; 
+  }
+
+  .container-testimony {
+    background: whitesmoke;
+  }
+
+}
+
+@media screen and (max-width: 460px){  
+
+  .image-testimony {
+    height: 20%;
+    width: auto;
+    position: absolute;
+    align-items: center;
+    margin-top: -300px;
+  }
+
+}
